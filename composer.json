@@ -6,8 +6,9 @@
     "license": "MIT",
     "homepage": "https://github.com/chargebee/chargebee-php",
     "require" : {
-        "php": ">=7.1",
-        "ext-curl": "*"
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "scripts": {
         "test": "php -S localhost:8080 -t test/"

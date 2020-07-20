@@ -3,9 +3,6 @@
 namespace ChargeBee\ChargeBee;
 
 use ChargeBee\ChargeBee;
-use ChargeBee\ChargeBee\Request;
-use ChargeBee\ChargeBee\Environment;
-use ChargeBee\ChargeBee\Version;
 use ChargeBee\ChargeBee\Exceptions\IOException;
 use ChargeBee\ChargeBee\Exceptions\PaymentException;
 use ChargeBee\ChargeBee\Exceptions\OperationFailedException;

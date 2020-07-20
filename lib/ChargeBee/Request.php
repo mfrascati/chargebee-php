@@ -3,11 +3,6 @@
 namespace ChargeBee\ChargeBee;
 
 use Exception;
-use ChargeBee\ChargeBee\Util;
-use ChargeBee\ChargeBee\Curl;
-use ChargeBee\ChargeBee\Result;
-use ChargeBee\ChargeBee\ListResult;
-use ChargeBee\ChargeBee\Environment;
 
 class Request
 {
@@ -38,7 +33,8 @@ class Request
         }
 
         $ser_params = Util::serialize($params);
-        $response = Curl::doRequest($method, $url, $env, $ser_params, $headers);
+//        $response = Curl::doRequest($method, $url, $env, $ser_params, $headers);
+        $response = Guzzle::doRequest($method, $url, $env, $ser_params, $headers);
 
         if (is_array($response) && array_key_exists("list", $response)) {
             return new ListResult($response['list'], isset($response['next_offset'])?$response['next_offset']:null);

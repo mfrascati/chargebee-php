@@ -3,7 +3,6 @@
 namespace ChargeBee\ChargeBee;
 
 use Exception;
-use ChargeBee\ChargeBee\Util;
 
 class Model
 {

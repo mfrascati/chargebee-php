@@ -3,7 +3,7 @@ namespace ChargeBee\ChargeBee;
 
 use ChargeBee\ChargeBee\Models;
 
-class ChargeBee_Result
+class Result
 {
     private $_response;
 	

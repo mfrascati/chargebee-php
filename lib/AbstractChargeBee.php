@@ -4,7 +4,7 @@ namespace ChargeBee;
 
 abstract class AbstractChargeBee
 {
-    const extensions = ['curl', 'json'];
+    const extensions = ['json'];
 
     public static $verifyCaCerts = true;
 

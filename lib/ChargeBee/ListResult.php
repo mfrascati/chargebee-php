@@ -5,7 +5,6 @@ namespace ChargeBee\ChargeBee;
 use Countable;
 use ArrayAccess;
 use Iterator;
-use ChargeBee\ChargeBee\Result;
 
 class ListResult implements Countable, ArrayAccess, Iterator
 {
