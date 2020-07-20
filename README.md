@@ -14,7 +14,7 @@ Chargebee now supports two API versions - [V1](https://apidocs.chargebee.com/doc
 ```ChargeBee``` is available on [Packagist](https://packagist.org/packages/chargebee/chargebee-php) and can be installed using [Composer](https://getcomposer.org/)
 
 <pre><code>
-	composer require chargebee/chargebee-php:'>=2, &lt;3'
+composer require chargebee/chargebee-php:'>=2, &lt;3'
 </code></pre>
 
 ## Documentation
