@@ -1,16 +1,19 @@
 <?php
+namespace ChargeBee\ChargeBee\Models;
 
-class ChargeBee_Hierarchy extends ChargeBee_Model
+use ChargeBee\ChargeBee\Model;
+
+class Hierarchy extends Model
 {
 
-  protected $allowed = array('parentId', 'paymentOwnerId', 'invoiceOwnerId', 'customerId', 'childrenIds'
-);
-
-
+  protected $allowed = [
+      'parentId',
+      'paymentOwnerId',
+      'invoiceOwnerId',
+      'customerId',
+      'childrenIds'
+  ];
 
   # OPERATIONS
   #-----------
-
- }
-
-?>
+}
